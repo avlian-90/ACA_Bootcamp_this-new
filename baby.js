@@ -26,8 +26,6 @@ class Person {
 class Baby extends Person {
   constructor(name, age, favoriteToy) {
     super(name, age);
-    this.name = name;
-    this.age = age;
     this.favoriteToy = favoriteToy;
   }
   play() {
